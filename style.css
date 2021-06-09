@@ -7,12 +7,26 @@
     text-decoration: none;
 }
 
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
 /* Navbar */
 .navbar {
     position: fixed;
     width: 100%;
+    padding: 15px 0;
     background: crimson;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .navbar .logo a {
@@ -28,4 +42,36 @@
 
 .navbar .menu li a {
     color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+/* Home Section Styling */
+.home {
+    display: flex;
+    background: url("images/Untitled\ design\ \(35\).png") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
 }
