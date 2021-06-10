@@ -17,6 +17,7 @@
 .navbar {
     position: fixed;
     width: 100%;
+    z-index: 999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
@@ -69,6 +70,13 @@
 .navbar .sticky .menu li a:hover {
     color: #fff;
     transition: color 0.3s ease;
+}
+
+/* Menu Button Styling */
+.menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
 }
 
 /* Home Section Styling */
