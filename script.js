@@ -5,6 +5,11 @@ $(document).ready(function(){
         } else {
             $('.navbar').removeClass("sticky");
         }
+    });
+    
+    //toggle menu/header script
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
     })
 });
 
