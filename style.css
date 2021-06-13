@@ -237,14 +237,10 @@ section {
     background: #fff;
 }
 
-.teams .title::after {
-    content: "what i provide";
-    background: #111;
-}
-
 /* Teams */
 .teams .title::after {
     content: "who with me";
+    background: #111;
 }
 
 .teams .carousel .card {
