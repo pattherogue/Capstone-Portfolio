@@ -400,7 +400,7 @@ section .title::after {
 
     .navar .menu li a {
         display: inline-block;
-        margin: 200px 0;
+        margin: 20px 0;
         font-size: 25px;
     }
 
@@ -418,7 +418,7 @@ section .title::after {
     }
 
     .max-width {
-        max-width: 800px;
+        max-width: 930px;
     }
 
     .about .about-content .column {
@@ -428,7 +428,7 @@ section .title::after {
     .about .about-content .left {
         display: flex;
         justify-content: center;
-        margin: 0 auto  60px;
+        margin: 0 auto 60px;
     }
 
     .about .about-content .right {
@@ -456,10 +456,14 @@ section .title::after {
 
 @media (max-width: 500px) {
     .home .home-content .text-2 {
-        font-size: 60px;
+        font-size: 50px;
     }
     
     .home .home-content .text-3 {
-        font-size: 32px
+        font-size: 27px
+    }
+
+    .about .about-content .right .text {
+        font-size: 19px;
     }
 }
