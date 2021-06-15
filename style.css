@@ -7,18 +7,27 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* Similar content styling */
+section {
+    padding: 100px 0;
+}
+
 .max-width {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
 
-
-.about, .teams {
+.about, .teams, .contact, footer {
     font-family: 'Poppins', sans-serif;
 }
 
-.about .about-content {
+.about .about-content,
+.contact .contact-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -364,8 +373,12 @@ section .title::after {
 }
 
 .contact .contact-content .left p {
-    margin: 10px 0;
+    text-align: justify;
 }
+
+.contact .contact-content .left .icons {
+    margin: 10px 0;
+} 
 
 .contact .contact-content .row {
     display: flex;
@@ -428,6 +441,11 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus {
+    border-color: #b3b3b3;
+}
+
 .contact .right form .textarea textarea {
     padding-top: 10px;
     resize: none;
@@ -454,6 +472,11 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
+.right form .button-area button:hover {
+    color: crimson;
+    background: none;
+}
+
 .right form .error-box {
     color: crimson;
     text-align: center;
@@ -468,6 +491,23 @@ section .title::after {
 
 .button .error-box span {
     font-weight: 500;
+}
+
+/* footer section styling */
+footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a {
+    color: crimson;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
 }
 
 
