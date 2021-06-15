@@ -512,12 +512,6 @@ footer span a:hover {
 
 
 /* Media Query */
-@media (max-width: 1300px) {
-    .home .max-width {
-        margin-left: 0px;
-    }
-}
-
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
@@ -596,6 +590,11 @@ footer span a:hover {
 
     .about .about-content .right {
         flex: 100%;
+    }
+
+    .contact .contact-content .column {
+        width: 100%;
+        margin-bottom: 35px;
     }
 }
 
