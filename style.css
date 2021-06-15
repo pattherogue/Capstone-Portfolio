@@ -628,4 +628,17 @@ footer span a:hover {
     .about .about-content .right .text {
         font-size: 19px;
     }
+
+    .contact .right form .fields {
+        flex-direction: column;
+    }
+
+    .contact .right form .name,
+    .contact .right form .email {
+        margin: 0;
+    }
+
+    .right form .error-box {
+        width: 150px;
+    }
 }
