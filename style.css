@@ -100,7 +100,6 @@ section .title::after {
 
 .navbar .sticky .logo a span {
     color: #fff;
-    transition: color 0.3s ease;
 }
 
 .navbar .menu li {
@@ -109,6 +108,7 @@ section .title::after {
 }
 
 .navbar .menu li a {
+    display: block;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -122,7 +122,6 @@ section .title::after {
 
 .navbar .sticky .menu li a:hover {
     color: #fff;
-    transition: color 0.3s ease;
 }
 
 /* Menu Button Styling */
@@ -133,6 +132,36 @@ section .title::after {
     display: none;
 }
 
+.scroll-up-btn {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.scroll-up-btn .show {
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.scroll-up-btn:hover {
+    filter: brightness(90%);
+}
+
 /* Home Section Styling */
 .home {
     display: flex;
@@ -140,11 +169,18 @@ section .title::after {
     height: 100vh;
     color: #fff;
     min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .home .max-width {
-    margin: auto 0 auto 40px;
+    width: 100%;
+    display: flex;
+}
+
+.home .max-width .row {
+    margin-right: 0;
 }
 
 .home .home-content .text-1 {

@@ -41,7 +41,7 @@ $(document).ready(function(){
         loop: true
     });
 
-    var typed = newTyped(".typing-2", {
+    var typed = new Typed(".typing-2", {
         strings: ["Youtuber", "Developer", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
@@ -51,7 +51,7 @@ $(document).ready(function(){
     //owl carousel 
     $('.carousel').owlCarousel({
         margin: 20,
-        loop: true;
+        loop: true,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
         responsive: {
