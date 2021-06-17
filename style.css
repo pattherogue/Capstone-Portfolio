@@ -76,7 +76,7 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.navbar .sticky {
+.sticky {
     padding: 15px 0;
     background: crimson;
 }
@@ -98,7 +98,7 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.navbar .sticky .logo a span {
+.sticky .logo a span {
     color: #fff;
 }
 
@@ -120,7 +120,7 @@ section .title::after {
     color: crimson;
 }
 
-.navbar .sticky .menu li a:hover {
+.sticky .menu li a:hover {
     color: #fff;
 }
 
