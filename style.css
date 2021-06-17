@@ -85,7 +85,6 @@ section .title::after {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .navbar .logo a {
@@ -96,6 +95,7 @@ section .title::after {
 
 .navbar .logo a span {
     color: crimson;
+    transition: all 0.3s ease;
 }
 
 .navbar .sticky .logo a span {
