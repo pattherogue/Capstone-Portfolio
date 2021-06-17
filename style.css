@@ -368,12 +368,12 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.owl-dot .active {
+.owl-dot.active {
     width: 35px;
     border-radius: 14px;
 }
 
-.owl-dot .active,
+.owl-dot.active,
 .owl-dot:hover {
     background: crimson!important;
 }
@@ -568,7 +568,7 @@ footer span a:hover {
         transition: all 0.3s ease;
     }
 
-    .navbar .menu .active {
+    .navbar .menu.active {
         left: 0;
     }
 
