@@ -152,7 +152,7 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.show {
+.scroll-up-btn.show {
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
