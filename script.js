@@ -69,19 +69,4 @@ $(document).ready(function(){
             }
         }
     });
-
-    $('.contact-form').submit((e) => {
-        e.preventDefault(); //prevent submitting form
-    });
-
-    $('.send-msg').click(()=> {
-        $fullname = $('.fullname').val();
-        $email = $('.email-input').val();
-        $subject = $('.subject').val();
-        $message = $('.message').val();
-        $('.send-msg').text("Sending...");
-        $('.contact-form').addClass("disable");
-
-        
-    })
 });
